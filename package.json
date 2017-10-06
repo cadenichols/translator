@@ -1,0 +1,32 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --progress -w",
+    "serve": "serve public"
+  },
+  "keywords": [],
+  "author": "Cade Nichols <kerbinite@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ascii85": "^1.0.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "hi-base32": "^0.3.0",
+    "jquery": "^3.2.1",
+    "jssha": "^2.3.1",
+    "md5": "^2.2.1",
+    "serve": "^6.2.0",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.6.0"
+  }
+}
