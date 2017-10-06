@@ -7,7 +7,7 @@ module.exports = {
   devtool: 'cheap-source-map',  
   output: {
     filename: 'bundle.js',
-    path: path.resolve('public')
+    path: path.resolve('docs')
   },
   module:{
     rules:[
