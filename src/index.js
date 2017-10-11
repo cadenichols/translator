@@ -19,6 +19,9 @@ function encodeText() {
   $('#base32').val(translate.toBase32(text));
   $('#base64').val(translate.toBase64(text));
   $('#ascii85').val(translate.toAscii85(text));
+  $('#md5').val(translate.toMd5(text));
+  $('#sha256').val(translate.toSHA256(text));
+  $('#sha512').val(translate.toSHA512(text));
 }
 
 // function decodeOther() {

@@ -10889,6 +10889,9 @@ function encodeText() {
   (0, _jquery2.default)('#base32').val(translate.toBase32(text));
   (0, _jquery2.default)('#base64').val(translate.toBase64(text));
   (0, _jquery2.default)('#ascii85').val(translate.toAscii85(text));
+  (0, _jquery2.default)('#md5').val(translate.toMd5(text));
+  (0, _jquery2.default)('#sha256').val(translate.toSHA256(text));
+  (0, _jquery2.default)('#sha512').val(translate.toSHA512(text));
 }
 
 // function decodeOther() {
@@ -17057,7 +17060,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "textarea {\n  width: 100%;\n  min-height: 140px;\n}\n\n.decode {\n  display: none;\n}\n", ""]);
+exports.push([module.i, "textarea {\n  width: 100%;\n  min-height: 140px;\n}\n\n.decode {\n  display: none;\n}\n\n.hash {\n  width: 100%;\n}\n", ""]);
 
 // exports
 

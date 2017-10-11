@@ -6,3 +6,7 @@ textarea {
 .decode {
   display: none;
 }
+
+.hash {
+  width: 100%;
+}

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --progress -w",
-    "serve": "serve public"
+    "serve": "serve docs"
   },
   "keywords": [],
   "author": "Cade Nichols <kerbinite@gmail.com>",
